@@ -50,11 +50,11 @@ try {
     $msg['title'] = getTitle($data);
 
     if ($sdLink = getSDLink($data)) {
-        $msg['links']['Download LQ'] = $sdLink;
+        $msg['links']['Server 1'] = $sdLink;
     }
 
     if ($hdLink = getHDLink($data)) {
-        $msg['links']['Download HD'] = $hdLink;
+        $msg['links']['Server 2'] = $hdLink;
     }
 } catch (Exception $e) {
     $msg['success'] = false;
