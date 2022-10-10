@@ -65,32 +65,47 @@
   <div class="container">
     <h1 class="mt-5">Facebook Video Downloader</h1>
     <p class="lead">Download video Facebook langsung melalui website Fbvidown.heroku.app.</p>
+    
     <p><div class="input-group mb-3">
     <input id="link" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
     <button class="btn btn-outline-secondary" type="button" id="download" data-disable-with="Search" onclick="getDownloadLink();">UNDUH</button>
     </div>
     </p>
-    <p><div id="result" style="display: none;" class="card border-dark mb-3" style="max-width: 18rem;">
+
+    <p><div id="result" style="display: none;" class="row justify-content-md-center">
+    <div class="col col-lg-2">
+
+    <div class="card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-header">Header</div>
     <div class="card-body text-dark">
     <h5 class="card-title">Title</h5>
     <p id="title" class="card-text"></p>
     </div>
-    </div></p>
-    <p><div id="result" style="display: none;" class="card border-dark mb-3" style="max-width: 18rem;">
+    </div>
+
+    </div>
+    <div class="col-md-auto">
+    <div class="card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-header">Header</div>
     <div class="card-body text-dark">
     <h5 class="card-title">Source</h5>
     <p id="source" class="card-text"></p>
     </div>
-    </div></p>
-    <p><div id="result" style="display: none;" class="card border-dark mb-3" style="max-width: 18rem;">
+    </div>
+
+    </div>
+    <div class="col col-lg-2">
+    <div class="card border-dark mb-3" style="max-width: 18rem;">
     <div class="card-header">Header</div>
     <div class="card-body text-dark">
     <h5 class="card-title">Link</h5>
     <p id="link" class="card-text"></p>
     </div>
+    </div>
+
+    </div>
     </div></p>
+
 
   </div>
 </main>
