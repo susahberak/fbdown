@@ -1,3 +1,16 @@
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+ 
+.cf:after{
+    clear:both;
+}
+ 
+.cf{
+    zoom:1;
+}    
+
 /* Form wrapper styling */
 .search-wrapper {
 width: 220px;
