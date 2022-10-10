@@ -13,7 +13,7 @@ try {
     $redirectUrl = null;
 
     if (empty($url)) {
-        throw new Exception('Please provide the URL', 1);
+        throw new Exception('Harap berikan URL-nya', 1);
     }
 
     $headers = [
