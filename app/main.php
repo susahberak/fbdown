@@ -13,7 +13,7 @@ try {
     $redirectUrl = null;
 
     if (empty($url)) {
-        throw new Exception('Harap berikan URL-nya, contoh: https://www.facebook.com/ferryayunda/videos/1234567890/', 1);
+        throw new Exception('Harap berikan URL-nya, contoh: https://www.facebook.com/bungferry.wa/videos/773001020434010/', 1);
     }
 
     $headers = [
