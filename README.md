@@ -1,4 +1,3 @@
-# Facebook-Video-Downloader
-Facebook Video Downloader in PHP 
+# Facebook Video Downloader
 
-# For Reel Download: https://rapidapi.com/vikas5914/api/facebook-reel-and-video-downloader
+Facebook Video Downloader in PHP 
